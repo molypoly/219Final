@@ -1,0 +1,27 @@
+/* CSS styles */
+.box {
+    width: 33.123%;
+    padding: 2%;
+    background-color: #3395FF;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+}

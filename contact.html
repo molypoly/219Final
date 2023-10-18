@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="219Final.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Three boxes at the top representing navigation -->
+            <div class="box" onclick="location.href='index.html';">
+                <h2>Home</h2>
+            </div>
+
+            <div class="box" onclick="location.href='about.html';">
+                <h2>Meet the Team</h2>
+            </div>
+
+            <div class="box" onclick="location.href='contact.html';">
+                <h2>Contact Us</h2>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Us</h2>
+            <p>Have a question or want to get in touch? Use the form below to send us an email.</p>
+            <form class="contact-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="question">Question:</label>
+                <textarea id="question" name="question" rows="4" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
